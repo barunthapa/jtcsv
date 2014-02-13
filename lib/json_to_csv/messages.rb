@@ -1,0 +1,7 @@
+FILE_NOT_FOUND = 'File not found! Please try again with valid filename.'
+FILENAME_NOT_SPECIFIED = 'You did not specify any filename for uploading votes.'
+FILE_NOT_JSON = 'File does not appear to be valid JSON file.'
+JSON_PARSE_ERROR = 'Something went wrong while parsing the json file. Please recheck the file for any error in JSON format.'
+JSON_PARSE_SUCCESS = 'Successfully read the votes.'
+SERVER_UPLOAD_SUCCESS = 'Successfully uploaded the votes to server.'
+SERVER_UPLOAD_FAILURE = 'Something went wrong while uploading the votes to the server'

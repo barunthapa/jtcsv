@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+abort('Your Ruby version is not supported.
+This tool requires Ruby 2.0') if RUBY_VERSION < '2.0.0'
+
+require 'json_to_csv/json_to_csv'
+
+JsonToCsv.start

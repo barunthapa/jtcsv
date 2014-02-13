@@ -1,0 +1,21 @@
+{
+    "authentication": { "login": "Bryan@gmail.com", "password": "pass123"},
+    "users": [
+    {
+         "firstname": "John", "lastname": "Smith", "politics": "left",
+         "email": "John@foo.com", "password": "password123",
+         "usergid": "@JohnFoo", "philosophy": "@Ph:SocialContract/2523"
+    },
+    {
+         "firstname": "Sally", "lastname": "Otter",
+         "email": "Sally@Bar.com", "password": "password456",
+         "usergid": "@Sally4"
+    }
+    ],
+    "votes": [
+    { "vote": "@GID:523cwe", "vote_choice": "@GID:va9s2", "voter": "@JohnSmith"} ,
+    { "vote": "@GID:24622", "vote_choice": "@GID:advsa", "voter": "@SallyX"} ,
+    { "vote": "@GID:523cwe", "vote_choice": "@GID:va9s2", "voter": "@ SallyX "} ,
+    { "vote": "@GID: 24622", "vote_choice": "@GID:nyrsx", "voter": "@JohnSmith"} 
+    ]
+}
